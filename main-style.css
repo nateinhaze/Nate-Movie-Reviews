@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #58666A ;
+}
+
+
+/*Phone Version */
+
+@media screen and (max-width: 650px){
+header{
+    background-color: #7DB2C1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+  
+}
+
+h1{
+    margin: 0;
+    padding-left: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 3vh;
+    text-shadow: #FAFAE6 1px 1px;
+}
+
+
+
+}
+/*end*/
+
+/* Desktop Version */
+
+@media screen and (min-width: 651px){
+header{
+    background-color: #7DB2C1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+h1{
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 5vh;
+    text-shadow: #FAFAE6 3px 1px 1px;
+}
+
+
+}
+/* end of desktop*/
+
+main{
+    background-color: #58666A ;
+    width: 100%;
+    height: 1500px;
+}
+.nate-movie-reviews{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+
+
+.expandheader{
+    height: 150px;
+    background-color:#7DB2C1;
+}
