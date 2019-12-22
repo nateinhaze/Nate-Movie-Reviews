@@ -17,26 +17,79 @@ header{
     background-color: #7DB2C1;
     width: 100%;
     height: 100%;
-    
-    
-  
+    display: flex;
+    flex-flow: row wrap;
+     
 }
 
+
 h1{
-    margin-right: 55%;
-    margin-left: 75%;
+    box-shadow:0 10px 20px -8px rgba(0, 0, 0,.7) ;
+    border-radius: 20px;;
+    background-color: #215B6B;
+    padding: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    text-align: center;
     font-family: 'Righteous', cursive;
     font-size: 2rem;
     text-shadow: #FAFAE6 1px 1px;
+    
+}
+
+h1:hover{
+    border-radius: 4px;
+    background-color: #7DB2C1;
+    border: none;
+    color: black;
+    text-align: center;
+    transition: all 0.5s;
+     cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+
 }
 .name{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #215B6b;
+    
    
     
 }
+.name:hover{
+    background-color: rgb(212, 235, 255);
+    color: #193840;
+    text-shadow: black 1px 1px;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    border: none;
+
+}
+.anc{
+    color:black;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 1.6rem;
+    text-shadow: #FAFAE6 1px 1px 2px;
+    text-decoration: inherit;
+    float: none;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 10px 20px -8px black;
+    border-top: 2px solid black;
+}
+p{
+    text-shadow: #FAFAE6 1px 1px;
+    
+}
+a{
+    border-bottom: 2px solid black;
+}
+
 
 
 
@@ -160,8 +213,32 @@ p{
     height: 100%;
     width: 100%;
 }
+.anc:hover{
+    color: #545614;
+    
 
+}
+.expandheader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sidebar{
+    margin-top: 1px;
+    height: 100%;
+    width: 200px;
+    background-color: #7DB2C1;
+    box-shadow: 5px 0 10px -2px black;
+    
 
+}
+main{
+    display: flex;
+    background-color: #58666A ;
+    width: 100%;
+    height: 1500px;
+    margin-top: 155px;
+}
 
 }
 /* end of desktop*/
@@ -187,8 +264,6 @@ main{
 .expandheader{
     height: 150px;
     background-color:#7DB2C1;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 p{
