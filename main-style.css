@@ -6,24 +6,36 @@ body{
 }
 
 
+
+
+
+
 /*Phone Version */
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 950px){
 header{
     background-color: #7DB2C1;
     width: 100%;
     height: 100%;
-    position: fixed;
-    top: 0;
+    
+    
   
 }
 
 h1{
-    margin: 0;
-    padding-left: 10px;
+    margin-right: 55%;
+    margin-left: 75%;
     font-family: 'Righteous', cursive;
-    font-size: 3vh;
+    font-size: 2rem;
     text-shadow: #FAFAE6 1px 1px;
+}
+.name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+   
+    
 }
 
 
@@ -31,23 +43,124 @@ h1{
 }
 /*end*/
 
+
+
+
+
+
+
+
 /* Desktop Version */
 
-@media screen and (min-width: 651px){
+@media screen and (min-width: 951px){
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: #7DB2C1;
     width: 100%;
     height: 100%;
-    position: fixed;
-    top: 0;
+    box-shadow: 0 10px 20px -8px black;
+    
 }
 h1{
-    margin: 0;
+    
     padding-left: 20px;
+    padding-right: 10px;
     font-family: 'Righteous', cursive;
-    font-size: 5vh;
+    font-size: 4rem;
     text-shadow: #FAFAE6 3px 1px 1px;
+    border-radius: 10px ;
 }
+
+.name{
+    display: flex;
+    align-items: center;
+    background-color: #215B6B;
+    border-left: solid #7DB2C1 5px;
+    border-bottom:solid #7DB2C1 ;
+    border-top: solid #7DB2C1;
+    border-radius:22px ;
+    min-width:140px;
+    width: 20%;
+    box-shadow: 0 4px 2px -2px black;
+    border-radius: 4px;
+    background-color: #215B6B;
+    border: none;
+    color: black;
+    text-align: center;
+    transition: all 0.5s;
+     cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    
+    
+    
+    
+}
+.name:hover{
+    background-color: rgb(212, 235, 255);
+    color: #193840;
+    text-shadow: black 1px 1px;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    border: none;
+
+}
+
+
+
+
+#series{
+    border-right:solid #7DB2C1;
+}
+p{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    text-shadow: #FAFAE6 1px 1px 2px;
+    
+
+}
+.nate-movie-reviews{
+    border-radius: 4px;
+    background-color: #215B6B;
+    border: none;
+    color: black;
+    text-align: center;
+    transition: all 0.5s;
+     cursor: pointer;
+     margin-right: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border-radius: 20px;
+}
+.nate-movie-reviews:hover{
+    border-radius: 4px;
+    background-color: #7DB2C1;
+    border: none;
+    color: black;
+    text-align: center;
+    transition: all 0.5s;
+     cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+   
+
+}
+.anc{
+    color:black;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: #FAFAE6 1px 1px 2px;
+    text-decoration: inherit;
+    float: none;
+    height: 100%;
+    width: 100%;
+}
+
 
 
 }
@@ -57,11 +170,13 @@ main{
     background-color: #58666A ;
     width: 100%;
     height: 1500px;
+    margin-top: 150px;
 }
 .nate-movie-reviews{
-    height: 150px;
+    height: 140px;
     display: flex;
     align-items: center;
+    width:50%;
     animation-duration: 10s;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -72,4 +187,31 @@ main{
 .expandheader{
     height: 150px;
     background-color:#7DB2C1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+p{
+    font-family: 'Righteous', cursive;
+   
+
+}
+#right-space{
+    margin-right:  10px;
+}
+#active{
+    background-color: #a1bbce;
+    color: black;
+    text-shadow: #FAFAE6 1px 1px 2px;
+    
+}
+#active:hover{
+    background-color: rgb(212, 235, 255);
+    color: #193840;
+    text-shadow: black 1px 1px;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    border: none;
+
+
 }
